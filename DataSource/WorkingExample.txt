@@ -1,0 +1,8 @@
+http://api.census.gov/data/2013/acs5?get=B09001_001E&for=county:*&in=state:13&key=31d7c4f68e1eed902150fb6f19839c5f09a5e1ae
+
+B09001_001E
+Variable Lookup:
+http://api.census.gov/data/2013/acs5/variables.html
+
+Endpoint:
+http://api.census.gov/data/2013/acs5
