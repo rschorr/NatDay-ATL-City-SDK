@@ -1,6 +1,9 @@
 //var turf = require('turf');
 var meals = require('./summermeals');
 
+//repository
+var converter = require('../DataSource/Converter.js');
+
 function initialize() {
   // Viewport config
   var mapConfig = {

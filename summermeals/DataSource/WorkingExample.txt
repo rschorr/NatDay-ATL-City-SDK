@@ -6,3 +6,6 @@ http://api.census.gov/data/2013/acs5/variables.html
 
 Endpoint:
 http://api.census.gov/data/2013/acs5
+
+Good overview:
+http://www.census.gov/content/dam/Census/data/developers/NDoCH_Support_Slides.pdf
