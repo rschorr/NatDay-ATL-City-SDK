@@ -9621,7 +9621,7 @@
     "Postal":"30344",
     "PostalExt":"",
     "Country":"USA",
-    "Status",
+    "Status": "",
     "ARC_Postal":"",
     "ARC_PostalExt":"",
     "ARC_CountryCode":""
