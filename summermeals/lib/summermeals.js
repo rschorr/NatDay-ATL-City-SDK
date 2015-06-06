@@ -44,7 +44,7 @@ function SummerMealMap(config) {
 
 SummerMealMap.prototype.loadSnaps = function(snaps) {
   for (var i in snaps) {
-    this.map.loadPoint(snaps[i]);
+    this.map.loadPoint(i);
   }
 };
 

@@ -2,7 +2,7 @@
 var meals = require('./summermeals');
 
 //repository
-var converter = require('../DataSource/Converter.js');
+var repository = require('../DataSource/Converter.js');
 
 function initialize() {
   // Viewport config
@@ -13,8 +13,11 @@ function initialize() {
   };
 
   var map = new meals.Map(mapConfig);
-
-  // TODO: fetch from API/repo
+  var repo = new repository.Data();
+    // TODO: fetch from API/repo
+  window.setTimeout(function () {
+      map.loadSnaps(repo.allFoodLocations);
+  }, 3000)
 
   var snaps = [{lat: 33.7677129, lng: -84.4206039}]; // Summer Nutrition Assistance Program locations
   var admin = []; // Administrative Areas
