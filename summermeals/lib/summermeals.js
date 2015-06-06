@@ -9,6 +9,21 @@ function GoogleMap(config) {
   this._map      = new google.maps.Map(this._el, googleConfig);
   this._markers  = [];
   this._polygons = [];
+
+   var countyLayer = new google.maps.FusionTablesLayer({
+    query: {
+      select: 'geometry',
+      from: '1EFHrj7EGO1SsrtWFei1tjjhV9A7JWWKgcVNFDQ'
+    },
+    styles: [{
+      polygonOptions: {
+        fillColor: '#00FF00',
+        fillOpacity: 0.3
+      }
+    }]
+  });
+
+   countyLayer.setMap(this._map);
 }
 
 GoogleMap.prototype.loadPoint = function(point) {
