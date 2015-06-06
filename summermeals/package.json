@@ -1,0 +1,19 @@
+{
+  "name": "summermeals",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "private": true,
+  "dependencies": {
+    "turf": "^2.0.2"
+  },
+  "devDependencies": {
+    "shelljs": "^0.5.1",
+    "chokidar": "^1.0.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
