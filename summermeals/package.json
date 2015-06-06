@@ -5,7 +5,7 @@
   "main": "main.js",
   "private": true,
   "dependencies": {
-    "turf": "^2.0.2"
+    "xr": "^0.1.10"
   },
   "devDependencies": {
     "shelljs": "^0.5.1",
